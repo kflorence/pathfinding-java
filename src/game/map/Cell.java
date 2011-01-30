@@ -27,11 +27,6 @@ public class Cell
         this.bounds = new Rectangle(location.x, location.y, Grid.getCellSize(), Grid.getCellSize());
     }
     
-    // Returns whether or not the cell is playable
-    public boolean isPlayable() {
-        return isPlayable;
-    }
-    
     // Returns whether or not the cell is a spawn point
     public boolean isSpawn() {
         return isSpawn;
@@ -42,9 +37,24 @@ public class Cell
         return isGoal;
     }
     
-    // Toggle whether or not the cell is playable
-    public void togglePlayable() {
-        isPlayable = !isPlayable;
+    // Returns whether or not the cell is playable
+    public boolean isPlayable() {
+        return isPlayable;
+    }
+    
+    // Set whether or not the cell is a spawn point
+    public void setSpawn(boolean bool) {
+        isSpawn = bool;
+    }
+    
+    // Set whether or not the cell is an exit point
+    public void setGoal(boolean bool) {
+        isGoal = bool;
+    }
+    
+    // Set whether or not the cell is playable
+    public void setPlayable(boolean bool) {
+        isPlayable = bool;
     }
     
     // Toggle whether or not the cell is a spawn point
@@ -55,6 +65,11 @@ public class Cell
     // Toggle whether or not the cell is an exit point
     public void toggleGoal() {
         isGoal = !isGoal;
+    }
+    
+    // Toggle whether or not the cell is playable
+    public void togglePlayable() {
+        isPlayable = !isPlayable;
     }
     
     // Returns rectangular bounds
@@ -91,4 +106,20 @@ public class Cell
     public int getC() {
     	return cell.y;
     }
+    
+    // Override toString method
+    public String toString()
+    {
+        StringBuffer sb = new StringBuffer();
+ 
+        sb.append("\n======= Begin Cell object =======");
+        sb.append("\ncell = " + cell.toString());
+        sb.append("\nisGoal = " + (isGoal ? "true" : "false"));
+        sb.append("\nisSpawn = " + (isSpawn ? "true" : "false"));
+        sb.append("\nisPlayable = " + (isPlayable ? "true" : "false"));
+        sb.append("\n======= End Cell object ========");
+
+        return (new String(sb));
+    }
+
 }

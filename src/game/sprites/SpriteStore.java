@@ -6,7 +6,7 @@
 
 package game.sprites;
 
-import game.Main;
+import game.modules.Graphics;
 
 import java.awt.Image;
 import java.awt.Transparency;
@@ -76,7 +76,8 @@ public class SpriteStore
 		else fail("Failed to load: " + ref);
 			
 		// Create an accelerated image of the right size to store our sprite in
-		image = Main.getGC().createCompatibleImage(sourceImage.getWidth(), sourceImage.getHeight(), Transparency.BITMASK);
+		image = Graphics.getGraphicsConfig().
+		    createCompatibleImage(sourceImage.getWidth(), sourceImage.getHeight(), Transparency.BITMASK);
 			
 		// Draw our source image into the accelerated image
 		image.getGraphics().drawImage(sourceImage, 0, 0, null);

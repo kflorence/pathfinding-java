@@ -1,22 +1,24 @@
 package game.entities;
 
-import game.Main;
+import game.Game;
 import game.map.Grid;
 import game.map.Cell;
+import game.modules.Graphics;
 import game.modules.pathfinding.AStar;
 
+import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Point;
+import java.awt.Rectangle;
 import java.awt.Transparency;
 
-// MoveableEntity: for entities that can move (duh!)
+// MoveableEntity: for entities that can move
 public class MovableEntity extends AnimatedEntity
 {
 	// DEBUG STUFF
-	private static Graphics2D g;
 	private static int pathSize = 0;
-	private static Image pathImage = null;
+	private static Image path = Graphics.getImage(Game.WIDTH, Game.HEIGHT, Transparency.BITMASK);
     
     // The direction of movement on the x/y-axis
     private double dx;
@@ -27,7 +29,7 @@ public class MovableEntity extends AnimatedEntity
     private Cell goalLocation;
     
     // The AStar pathfinding class
-    private AStar path = new AStar(this);
+    private AStar astar = new AStar(this);
     
     // The turning radius of this entity
     //private int radius = 3;
@@ -39,10 +41,12 @@ public class MovableEntity extends AnimatedEntity
     
     // The current location we are on the generated path
     private Cell currentCell;
-    private int movementState = WAITING;
     private int pathLocation  = 1;
+    private int movementState = WAITING;
 
-	public MovableEntity(Point start, Point goal) {
+    // Constructor
+	public MovableEntity(Point start, Point goal)
+	{
 		super(start.x, start.y);
 		
 		// Set start and goal locations
@@ -64,11 +68,6 @@ public class MovableEntity extends AnimatedEntity
     // Return goal point
     public Cell goalLocation() {
     	return goalLocation;
-    }
-    
-    // Return the reference to the AStar class
-    public AStar getPath() {
-        return path;
     }
     
     // Return movement of x coordinate
@@ -107,12 +106,12 @@ public class MovableEntity extends AnimatedEntity
     
     // Set the number of steps this entity will take per loop
     public void setStepLimit(int n) {
-    	path.setStepLimit(n);
+    	astar.setStepLimit(n);
     }
     
     // Start building a path for this entity
     public void startMoving() {
-    	path.newPath(startLocation, goalLocation);
+    	astar.newPath(startLocation, goalLocation);
     }
     
     /**
@@ -131,17 +130,37 @@ public class MovableEntity extends AnimatedEntity
         return false;
     }
     
+    // Convenience method for canMove(int, int)
+    public boolean canMove(Point p)
+    {
+        return canMove(p.x, p.y);
+    }
+    
     // Check to see whether or not this entity can move
     // FIXME
     public boolean canMove(int x, int y)
-    {    
-        Cell cell = Grid.getCell(Grid.cellFromLocation(x, y));
-    	
-    	// Top-Left corner (cell check)
-        if (!cell.isPlayable()) return false;
+    {
+        // Construct a bounding box for location x, y
+        Rectangle me = getBounds(x, y);
         
-        // Entity can move!
-        else return true;
+    	// Check top-left corner
+        if (!Grid.getCellFromLocation(me.x, me.y).isPlayable())
+            return false;
+        
+        // Check top-right corner
+        if (!Grid.getCellFromLocation(me.x + me.width, me.y).isPlayable())
+            return false;
+        
+        // Check bottom-left corner
+        if (!Grid.getCellFromLocation(me.x, me.y + me.height).isPlayable())
+            return false;
+        
+        // Check bottom-right corner
+        if (!Grid.getCellFromLocation(me.x + me.width, me.y + me.height).isPlayable())
+            return false;
+        
+        // Entity can move
+        return true;
     }
     
     /**
@@ -150,63 +169,47 @@ public class MovableEntity extends AnimatedEntity
      * 
      **/
 
-	@Override
-	// TODO
-	public void collidedWith(game.entities.Entity other) {}
-
-    @Override
-    // The entities logic 
-    public void doLogic()
-    {
-    	// If this unit is logical, execute logic as needed
-        if (this.isLogical())
-        {
-            // Build our path
-        	path.findPath();
-        }
-    }
-
-	@Override
 	// This entities path Image
-	public Image getPathImage()
+	public Image getPath()
 	{
-    	// If the path needs to be updated...
-    	if (path.exists() && (pathSize != path.getSize()))
+    	// Keep drawing the path as we get it
+    	if (astar.pathExists() && (pathSize != astar.getPathSize()))
     	{
-           	Point first, second;
-    		
-            // Store the size of the path
-    		pathSize = path.getSize();
-    		
-    		// Create a transparent image of the grid, match width/height of game window
-            pathImage = Main.getGC().createCompatibleImage(Main.WIDTH, Main.HEIGHT, Transparency.BITMASK);
-            g = (Graphics2D) pathImage.getGraphics();
-	            	
+           	Cell first, second;
+           	Graphics2D g = (Graphics2D) path.getGraphics();
+           	
+            // Clear the old path so we can build a new one
+            Graphics.clear(g);
+            
           	// Set the entities color
            	g.setColor(getColor());
-            	
+           	
+            // Store the current size of the path
+            pathSize = astar.getPathSize();
+           	
            	// Loop through this entity's path and draw it
-           	for (int x = 1; x < path.getSize(); x++)
+           	for (int x = 1; x < astar.getPathSize(); x++)
            	{
-                first  = path.get(x).getCell().getLocation();
-                second = path.get(x + 1).getCell().getLocation();
-            		
+                first  = astar.getNode(x).getCell();
+                second = astar.getNode(x + 1).getCell();
+                
+                g.setColor(Color.gray);
+                
+                // Fill in waypoint cells
+                g.fill(first.getBounds());
+                g.fill(second.getBounds());
+                
+                g.setColor(getColor());
+                
                 // Draw line segment
-           		g.drawLine(first.x, first.y, second.x, second.y);
+           		g.drawLine(first.getLocation().x, first.getLocation().y, second.getLocation().x, second.getLocation().y);
            	}
 	        
 	        // Dispose of this graphics content
 	        g.dispose();
     	}
     	
-        // No path to draw
-        else
-        {
-        	pathSize 	= 0;
-        	pathImage 	= null;
-        }
-    	
-    	return pathImage;
+    	return path;
     }
 	
 	@Override
@@ -214,9 +217,7 @@ public class MovableEntity extends AnimatedEntity
 	public void update(long delta)
 	{
     	// Update animation state
-        if (this.isMoving()) {
-        	setState("moving");
-        }
+        if (this.isMoving()) setState("moving");
         
         // Not moving
         else setState("still");
@@ -224,6 +225,22 @@ public class MovableEntity extends AnimatedEntity
         // The rest of the work is done in AnimatedEntity
         super.update(delta);
 	}
+	
+    @Override
+    // TODO
+    public void collidedWith(game.entities.Entity other) {}
+
+    @Override
+    // The entities logic 
+    public void doLogic()
+    {
+        // If this unit is logical, execute logic as needed
+        if (this.isLogical())
+        {
+            // Build our path
+            astar.findPath();
+        }
+    }
 
 	@Override
 	// Update this entities location
@@ -233,7 +250,7 @@ public class MovableEntity extends AnimatedEntity
         resetMovement();
     	
     	// Make sure we have a path to move along
-    	if (path.exists() && (pathLocation <= path.getSize()))
+    	if (astar.pathExists() && (pathLocation <= astar.getPathSize()))
     	{	    	
 			// Which movementState are we in?
     		switch (movementState)
@@ -241,8 +258,10 @@ public class MovableEntity extends AnimatedEntity
 	    		// We are waiting for the next move
 	    		case WAITING:
 			        // Grab the next node we need to move to
-			    	currentCell = path.getMove(pathLocation);
-			    		
+			    	currentCell = astar.getNode(pathLocation).getCell();
+			    	
+			    	System.out.println("moving towards: " + currentCell.getGridLocation().toString());
+			    	
 			    	// Change our movementState to moving
 			    	movementState = MOVING;
 			    	break;
@@ -290,7 +309,7 @@ public class MovableEntity extends AnimatedEntity
 			    	// Tell the console we are done
     				if (debugOn())
     					System.out.println("Entity #" + getNumber() + ": Path finished. Removing entity.");
-	    			
+    				
 			    	// Call this entity's destroy function
     				destroy();
 	    			break;
@@ -330,9 +349,11 @@ public class MovableEntity extends AnimatedEntity
 	@Override
 	public void destroy()
 	{
-		path = null;
-		
-		// Pass the call up the chain
-		super.destroy();
+	    // Clear the entities path
+	    //Graphics2D g = (Graphics2D) path.getGraphics();
+	    //Graphics.clear(g);
+	    
+        // Pass this call to the parent class
+        super.destroy();
 	}
 }

@@ -1,7 +1,7 @@
 package game.entities;
 
 import game.map.Grid;
-import game.Main;
+import game.Game;
 import game.sprites.*;
 
 import java.awt.Color;
@@ -16,8 +16,7 @@ public abstract class Entity
     private double angle;								// The angle this entity will be drawn at
     private Sprite sprite;								// The sprite that will be used for the entity
 
-    private int number 			= Main.entityNumber();	// The unique number assigned to this entity
-    private Rectangle me 		= new Rectangle();		// The bounding box for this entity (FIXME)
+    private int number 			= Game.entityNumber();	// The unique number assigned to this entity
     private boolean canSpawn 	= false;				// Determine whether or not this entity spawns
     private boolean isLogical	= false;				// Determine whether or not this entity is logical
     
@@ -133,6 +132,18 @@ public abstract class Entity
         return y;
     }
     
+    // Return entity width
+    public int getWidth()
+    {
+        return sprite.getWidth();
+    }
+    
+    // Return entity height
+    public int getHeight()
+    {
+        return sprite.getHeight();
+    }
+    
     // Return this entity's color
     public Color getColor() {
     	return color;
@@ -143,14 +154,17 @@ public abstract class Entity
     	return number;
     }
     
-    // Return a rectangle representation of this entity
-    public Rectangle getRectangle()
+    // Return a bounding box for this entity's current position
+    public Rectangle getBounds()
     {
-        // Create rectangle at current location
-    	me.setBounds((int) x, (int) y, sprite.getWidth(), sprite.getHeight());
-        
-    	// Return our rectangle
-        return me;
+        return getBounds((int) x, (int) y);
+    }
+    
+    // Return a bounding box for this entity at location x, y
+    public Rectangle getBounds(int x, int y)
+    {
+    	// Creating a bounding box for our current location
+        return new Rectangle(x, y, getWidth(), getHeight());
     }
     
     // Return the Node this entity is currently in
@@ -163,10 +177,11 @@ public abstract class Entity
         sprite.draw(g, angle, (int) x, (int) y);
     }
     
-    // Remove entity
+    // Any cleanup activities should be done here
     public void destroy()
-    {
-    	Main.removeEntity(this);
+    {        
+        // Remove the entity from the game's entity list
+    	Game.removeEntity(this);
     }
     
     /**
@@ -174,9 +189,6 @@ public abstract class Entity
      * ABSTRACT functions (overwritten by class extensions)
      * 
      **/
-    
-    // For path debug
-    public abstract java.awt.Image getPathImage();
     
     // Updates the entity's movement, if needed
     public abstract void move(long delta);

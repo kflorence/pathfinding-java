@@ -22,13 +22,15 @@ public class AlienEntity extends MovableEntity
         setLogic(true);			// This entity is logical
         setSpeed(75);			// This entity's movement speed (pixels/second)
         loadAnimation();		// Set this entities animation states
-        setStepLimit(25);		// Set the amount of steps this entity will calculate per loop
+        setStepLimit(0);		// Set the amount of steps this entity will calculate per loop
         startMoving();			// Start generating this entities path
     }
     
     // Set our animation states
     private void loadAnimation()
     {
+        // TODO: this should all be parsed from an XML file in the future!
+        
         // Animation States: Still
         addState("still", "source/alien_still.gif");
     

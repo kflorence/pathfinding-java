@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<map cellsize="20" rows="20" columns="20">
+	<title>Default Map</title>
+	<author>Kyle Florence</author>
+	<cells>
+		<cell row="1" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="1" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="2" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="3" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="4" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="5" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="6" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="6" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="7" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="8" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="9" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="10" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="11" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="12" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="13" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="14" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="1">
+			<spawn>true</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="15" column="20">
+			<spawn>false</spawn>
+			<goal>true</goal>
+			<playable>true</playable>
+		</cell>
+		<cell row="16" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="16" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="17" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="18" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="19" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="1">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="2">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="3">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="4">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="5">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="6">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="7">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="8">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="9">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="10">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="11">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="12">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="13">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="14">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="15">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="16">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="17">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="18">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="19">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+		<cell row="20" column="20">
+			<spawn>false</spawn>
+			<goal>false</goal>
+			<playable>false</playable>
+		</cell>
+	</cells>
+</map>
